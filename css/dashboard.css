@@ -1,0 +1,72 @@
+/* top background */
+.divbg {
+  background-image: linear-gradient(rgb(216, 7, 7), white);
+  text-shadow: 5px black;
+}
+
+/* Middletown university */
+.text {
+  color: white;
+  line-height: 60px;
+  letter-spacing: 10px;
+  text-align: left;
+}
+
+/* for Middletown */
+.name{
+  font-variant: small-caps;
+  font-size: 40px;
+}
+
+/* For University */
+.university{
+  font-size: 50px;
+}
+
+/* For div containing links */
+.header {
+  position: relative;
+  min-height: 150px;
+}
+
+/* For the links */
+.future{
+  font-size: small;
+  font-variant: small-caps;
+}
+
+/* For the links */
+.header-content {
+  position: absolute;
+  bottom: 0;
+}
+
+/*For footer  */
+.footerbg {
+  background-image: linear-gradient(white, rgb(216, 7, 7));
+  text-shadow: 5px black;
+}
+
+/* For social icons*/
+.imagesize{
+  width:32px;
+  height:32px;
+}
+
+/* For Address in index */
+.add{
+  text-align: right;
+  color: beige;
+  font-size: 1.5em;
+}
+
+/* For address on signup page */
+.addd{
+  text-align: left;
+  color: beige;
+  font-size: 1.5em;
+}
+
+h3{
+  color: beige;
+}
