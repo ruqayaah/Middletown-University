@@ -13,13 +13,13 @@
 }
 
 /* for Middletown */
-.name{
+.name {
   font-variant: small-caps;
   font-size: 40px;
 }
 
 /* For University */
-.university{
+.university {
   font-size: 50px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 /* For the links */
-.future{
+.future {
   font-size: small;
   font-variant: small-caps;
 }
@@ -41,6 +41,14 @@
   bottom: 0;
 }
 
+/* For carousel text */
+.header-content2 {
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ font-size: 2.5em;}
+
 /*For footer  */
 .footerbg {
   background-image: linear-gradient(white, rgb(216, 7, 7));
@@ -48,25 +56,38 @@
 }
 
 /* For social icons*/
-.imagesize{
-  width:32px;
-  height:32px;
+.imagesize {
+  width: 32px;
+  height: 32px;
 }
 
 /* For Address in index */
-.add{
+.add {
   text-align: right;
   color: beige;
   font-size: 1.5em;
 }
 
 /* For address on signup page */
-.addd{
+.addd {
   text-align: left;
   color: beige;
   font-size: 1.5em;
 }
 
-h3{
+h3 {
   color: beige;
+}
+
+/* For background image */
+#animated {
+  background: url(https://i.gifer.com/1gqf.gif) no-repeat center center fixed; ;
+  /* background-repeat: no-repeat; */
+  width:1000px;
+  height:500px;
+  /* transform: scale(2); */
+  background-color: transparent;
+  background-size: cover;
+  /* background-position: center; */
+  margin-right: 0;
 }

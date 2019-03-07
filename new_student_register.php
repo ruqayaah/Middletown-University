@@ -54,38 +54,84 @@ $notSucc = @$_SESSION['errPresent'];
                         <form action="register.php" method="post" class="w-100">
                             <span class="text-danger"><?php echo $fname; ?></span>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txtFirstname" placeholder="Firstname" >
+                             <label for="Name" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Firstname:</label>
+                                <input type="text" class="form-control" name="txtFirstname">
                             </div>
+
                             <span class="text-danger"><?php echo $lname; ?></span>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txtLastname" placeholder="Lastname" >
+                             <label for="Name" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Lastname:</label>
+                                <input type="text" class="form-control" name="txtLastname">
                             </div>
+
+                            <!-- <span class="text-danger"><?php echo $lname; ?></span>
                             <div class="form-group">
-                                <span class="text-danger"><?php echo $mail; ?></span>
-                                <input type="email" class="form-control" name="txtEmail" placeholder="Email" >
+                             <label for="Sex" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Lastname</label>
+                                <input type="radio" class="form-control" name="txtLastname" placeholder="Lastname" >
+                            </div> -->
+                            <div class="radio radio-inline">
+                                <label ><input type="radio" name="optradio">Male</label>
                             </div>
+                            <div class="radio radio-inline">
+                                <label><input type="radio" name="optradio">Female</label>
+                            </div>
+
+                            <span class="text-danger"><?php echo $mail; ?></span>
+                             <label for="Email" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Email:</label>
                             <div class="form-group">
-                                <span class="text-danger"><?php echo $num; ?></span>
-                                <input type="number" class="form-control" name="txtMobileNumber" placeholder="Phone Number" >
+                                <input type="email" class="form-control" name="txtEmail">
                             </div>
+
+                            <span class="text-danger"><?php echo $num; ?></span>
+                             <label for="Mobile" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Mobile Number:</label>
+                            <div class="form-group">
+                                <input type="number" class="form-control" name="txtMobileNumber">
+                            </div>
+
                             <span class="text-danger"><?php echo $fac ; ?></span>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txtFaculty" placeholder="Faculty" >
+                                <label for="Faculty" id="sellist" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Faculty:</label>
+                                <select class="form-control" name="txtFaculty" placeholder="Faculty" id="sellist">
+                                    <option value=""></option>
+                                    <option value="">agriculture & Wildlife management</option>
+                                    <option value="">Arts & humanities</option>
+                                    <option value="">Education</option>
+                                    <option value="">law & order</option>
+                                    <option value="">Medicine</option>
+                                    <option value="">Science</option>
+                                    <option value="">Technology</option>
+                                    <option value="">The social sciences</option>
+                                    <option value="">Veterinary medicine</option>
+                                </select>
                             </div>
+
                             <span class="text-danger"><?php echo $course ; ?></span>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txtCourse" placeholder="Course" >
+                                <label for="Course" id="sellist2" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Courses:</label>
+                                <input type="text" class="form-control" name="txtCourse">
                             </div>
+
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txtUsername" placeholder="Username" >
+                                <label for="Username" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Username:</label>
+                                <input type="text" class="form-control" name="txtUsername">
                             </div>
+
                             <div class="form-group">
-                                <input type="password" class="form-control" name="txtPassword" placeholder="Password" >
+                                <label for="Password" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Password:</label>
+                                <input type="password" class="form-control" name="txtPassword">
                             </div>
+
+                            <span class="text-danger"><?php echo $conf; ?></span>
                             <div class="form-group">
-                                <span class="text-danger"><?php echo $conf; ?></span>
-                                <input type="password" class="form-control" name="txtConfirmPassword" placeholder="Confirm Password">
+                                <label for="Confirm-Password" class="future font-weight-bold text-decoration-none text-danger text-warning:hover">Re-enter Password:</label>
+                                <input type="password" class="form-control" name="txtConfirmPassword">
                             </div>
+
+                            <span class="text-danger"></span>
+                            <div class="form-group">
+                            <input type="file" id="myFile"><small><span>Upload Passport</span> Passport must not be > 2kb in size and of JPEG format</small>
+                            </div>
+
                             <div class="form-group">
                                 <input type="submit" class="btn btn-danger" value="Register" name="btnRegister">
                                 <a href="login.php" class="px-3 text-danger font-weight-bold">Sign In</a>
