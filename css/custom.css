@@ -39,16 +39,6 @@ body {
 color:white;
 text-align: center;}
 
-/* styling input on sign-up page */
-input {
-  border: none;
-  border-bottom: 2px solid red;
-  color:white;
-}
-
-input:focus {
-  background-color: lightyellow;
-}
 
 /* For success page */
 .success {
@@ -68,6 +58,7 @@ input:focus {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .regsuccess {
   color:yellow;
   font-variant-caps: small-caps;
@@ -75,9 +66,52 @@ input:focus {
   font-size: 2em;
 }
 
+/* For buttons on registration page */
+.centralize{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For tabs on registration page */
+/* .formHeaders{
+  width: 100%;
+  display: inline-block;
+} */
+
+.formHeader{
+  padding: 10px 0;
+  font-variant-caps: small-caps;
+}
+
+#form2{
+  display: none;
+}
+
+#form3{
+  display: none;
+}
+
+.blue-border{
+  border: 1px solid #ddd;
+  background-color: #ccc;
+
+}
 
 
-
+/* .buttons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+/* .button{
+  padding: 5px 15px;;
+  margin: 5px;
+  background-color: lightseagreen;
+  color: #ddd;
+  border: none;
+  cursor: pointer;
+} */
 /* .font-weight-normal {
   font-family: cooper black;
   font-weight: 400;

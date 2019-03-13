@@ -12,12 +12,12 @@
 <body>
     <div class="container">
         <div class="jumbotron m-5">
-            <h5>If you are currently seeking admission and want to register online, you are advised to visit <span><a href="#" class="future text-decoration-none text-danger text-warning:hover">Faculty & Staff</a></span>to pick your course of choice and possible lecturers who are professionals in your field of study.<br>
-It is recommended to send emails to lecturers of choice after having made enough research on them and their possible interest in your work.</h5>
+            <h5>If you are currently seeking admission and want to register online, you are advised to visit <span><a href="#" class="future text-decoration-none text-danger text-warning:hover">Faculty & Staff</a></span> to decide on a course of your choice and possible lecturers who are professionals in that field of study.<br>
+                It is recommended to send emails to lecturers of choice after having made enough research on them and their possible interest in your work.</h5>
         </div>
-<div class="jumbotron m-5">
-    <h5>If you have chosen a course of study we have; go on to register here <a href="new_student_register.php" class="future text-decoration-none text-danger text-warning:hover">Future Students</a></h5>
-</div>
+        <div class="jumbotron m-5">
+            <h5>If you have chosen a course of study; go on to register here <a href="new_student_register.php" class="future text-decoration-none text-danger text-warning:hover">Future Students</a>. Good Luck!</h5>
+        </div>
     </div>
 </body>
 </html>

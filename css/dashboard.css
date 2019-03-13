@@ -43,11 +43,12 @@
 
 /* For carousel text */
 .header-content2 {
-  position:absolute;
+  position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
- font-size: 2.5em;}
+  font-size: 2.5em;
+}
 
 /*For footer  */
 .footerbg {
@@ -81,10 +82,10 @@ h3 {
 
 /* For background image */
 #animated {
-  background: url(https://i.gifer.com/1gqf.gif) no-repeat center center fixed; ;
+  background: url(https://i.gifer.com/1gqf.gif) no-repeat center center fixed;
   /* background-repeat: no-repeat; */
-  width:1000px;
-  height:500px;
+  width: 1000px;
+  height: 500px;
   /* transform: scale(2); */
   background-color: transparent;
   background-size: cover;

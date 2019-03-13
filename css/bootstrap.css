@@ -2128,6 +2128,8 @@ textarea.form-control {
   color: #28a745;
 }
 
+
+
 .was-validated .form-check-input:valid ~ .valid-feedback,
 .was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.is-valid ~ .valid-feedback,
 .form-check-input.is-valid ~ .valid-tooltip {
